@@ -50,4 +50,4 @@ source .devops/bin/activate
 * Create Flask app in Container
 * Run via kubectl
 
-Thank you!
+Thank You All!
