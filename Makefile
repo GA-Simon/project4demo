@@ -40,8 +40,8 @@ install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
 		
-		wget -O ./hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 &&\
-		chmod +x ./hadolint
+	wget -O ./hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 &&\
+	chmod +x ./hadolint
 
 	# wget -O /bin/minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 	# # chmod +x /bin/minikube
