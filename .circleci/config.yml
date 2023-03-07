@@ -44,12 +44,12 @@
 # 	         # curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
 # 	         # chmod +x ./kubectl
 # 	         # mv ./kubectl /usr/local/bin/kubectl
-	
+
 #       - save_cache:
 #           paths:
 #             - ./venv
 #           key: v1-dependencies-{{ checksum "requirements.txt" }}
-        
+
 #       # run tests!
 #       - run:
 #           name: run tests
